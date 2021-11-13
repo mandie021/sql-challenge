@@ -93,7 +93,7 @@ WHERE emp.hire_date BETWEEN '1985-12-31' and '1987-01-01';
 --use tables departments, dept_emp, dep_manager, and employees
 SELECT d.dept_no AS "Department Number",
 	d.dept_name AS "Department Name",
-	dman.emp_no AS "Manager's Employee Number",
+	dman.emp_no AS "Managers Employee Number",
 	emp.last_name AS "Employee Last Name",
 	emp.first_name AS "Employee First Name"
 FROM employees AS emp
